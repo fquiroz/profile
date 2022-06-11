@@ -11,7 +11,7 @@
 body {
   background-color: var(--darkBlue);
   font-family: "Poppins", sans-serif;
-  margin-top: 130px;
+  margin-top: 50px;
 }
 
 .profile__picture {
@@ -30,7 +30,7 @@ body {
 
 .card {
 box-shadow: 0px 0px 3px 1px var(--white);
-max-width: 430px;
+max-width: 420px;
 height: 750px;
 
 /* 
@@ -81,6 +81,7 @@ margin: 10% auto 0;
 .profile__name {
   color: var(--white);
   text-shadow: 1px 1px 1px #333;
+  font-size: 20px;
   margin-left: 50%;
   transform: translateX(-33%);
 }
@@ -88,7 +89,7 @@ margin: 10% auto 0;
 }
 .profile__job {
   color: var(--white);
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 200;
   margin-left: 50%;
   transform: translateX(-50%);
@@ -200,13 +201,13 @@ label input {
   border: 2px solid var(--darkBlue);
 }
 
-.skills > div > h5 {
+.skills > div > h4 {
   color: var(--white);
 }
 
 .skills > div > p {
   color: white;
-  font-size: 10px;
+  font-size: 11px;
   font-weight: 200;
 }
 
@@ -455,7 +456,7 @@ label input {
     max-width: 390px;
     height: 750px;
     margin-left: 50%;
-    transform: translateX(-50%);
+/*     transform: translateX(-50%); */
     border-radius: 24px;
     padding: 40px 50px;
     position: relative;
